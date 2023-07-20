@@ -14,6 +14,22 @@ public class dm {
      * @BY BlackWind
      * @QQ 2597906396
      * @Email 2597906396@qq.com
+     * @date 2023/7/20 20:16
+     * 大漠处理信息
+     */
+    public static int DataToInt(Variant SS){
+        return Integer.parseInt(String.valueOf(SS));
+    }
+
+    public static String DataToString(Variant SS){
+        return String.valueOf(SS);
+    }
+
+
+    /**
+     * @BY BlackWind
+     * @QQ 2597906396
+     * @Email 2597906396@qq.com
      * @date 2023/7/15 20:54
      * 窗口
      */
